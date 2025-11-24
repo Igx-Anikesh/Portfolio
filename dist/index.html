@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antigravity</title>
+  <script type="module" crossorigin src="./assets/index-2kdr44L-.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Ddu4Uit9.css">
+</head>
+
+<body>
+  <div id="root">
+    <style>
+      body {
+        margin: 0;
+        background-color: #0a0a0a;
+        font-family: sans-serif;
+        overflow: hidden;
+      }
+
+      .loader-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: radial-gradient(circle at center, #1e293b 0%, #0a0a0a 100%);
+        z-index: 9999;
+      }
+
+      .loader-text {
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 0.2em;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        background: linear-gradient(to right, #38bdf8, #2dd4bf);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: pulse 2s infinite;
+      }
+
+      .spinner {
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(56, 189, 248, 0.3);
+        border-radius: 50%;
+        border-top-color: #38bdf8;
+        animation: spin 1s ease-in-out infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes pulse {
+
+        0%,
+        100% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 0.7;
+        }
+      }
+    </style>
+    <div class="loader-container">
+      <div class="loader-text">Antigravity</div>
+      <div class="spinner"></div>
+    </div>
+  </div>
+</body>
+
+</html>
