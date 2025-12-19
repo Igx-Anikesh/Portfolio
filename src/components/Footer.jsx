@@ -22,20 +22,20 @@ const Footer = () => {
                     </div>
 
                     <div className="flex gap-4">
-                        <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-400 transition-all hover:bg-white/10 hover:text-white hover:scale-110">
+                         <a href="https://github.com/Igx-Anikesh" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-400 transition-all hover:bg-white/10 hover:text-white hover:scale-110">
                             <Github className="h-4 w-4" />
                         </a>
                         <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-400 transition-all hover:bg-white/10 hover:text-white hover:scale-110">
                             <Twitter className="h-4 w-4" />
                         </a>
-                        <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-400 transition-all hover:bg-white/10 hover:text-white hover:scale-110">
+                        <a href="https://www.linkedin.com/in/igx-anikesh/" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-400 transition-all hover:bg-white/10 hover:text-white hover:scale-110">
                             <Linkedin className="h-4 w-4" />
                         </a>
                     </div>
                 </div>
 
                 <div className="mt-12 text-center text-xs text-slate-600">
-                    © 2025 Antigravity Inc. All rights reserved.
+                    © 2025 | Anikesh Kumar | All rights reserved.
                 </div>
             </div>
         </footer>
@@ -43,3 +43,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
