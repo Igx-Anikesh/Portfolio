@@ -34,7 +34,7 @@ const Contact = () => {
                             <Mail className="w-6 h-6" />
                         </div>
                         <h3 className="text-white font-semibold mb-2">Email</h3>
-                        <p className="text-slate-400 text-sm">hello@anikesh.dev</p>
+                        <p className="text-slate-400 text-sm">anikeshkumar.8130@gmail.com</p>
                     </motion.div>
 
                     <motion.div
@@ -48,7 +48,7 @@ const Contact = () => {
                             <Phone className="w-6 h-6" />
                         </div>
                         <h3 className="text-white font-semibold mb-2">Phone</h3>
-                        <p className="text-slate-400 text-sm">+1 (555) 123-4567</p>
+                        <p className="text-slate-400 text-sm">+91 82877 01096</p>
                     </motion.div>
 
                     <motion.div
@@ -62,7 +62,7 @@ const Contact = () => {
                             <MapPin className="w-6 h-6" />
                         </div>
                         <h3 className="text-white font-semibold mb-2">Location</h3>
-                        <p className="text-slate-400 text-sm">San Francisco, CA</p>
+                        <p className="text-slate-400 text-sm">New Delhi, Delhi, India</p>
                     </motion.div>
                 </div>
 
@@ -100,3 +100,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
